@@ -10,4 +10,15 @@
 
 @interface SecondViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+
+- (IBAction)makeBold:(id)sender;
+- (IBAction)makeItalic:(id)sender;
+- (IBAction)underlineText:(id)sender;
+- (IBAction)alignTextLeft:(id)sender;
+- (IBAction)centerText:(id)sender;
+- (IBAction)alignTextRight:(id)sender;
+- (IBAction)makeTextColorRed:(id)sender;
+- (IBAction)makeTextColorBlack:(id)sender;
+
 @end
